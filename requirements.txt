@@ -1,0 +1,32 @@
+requests
+pyyaml
+google-generativeai
+langchain-openai
+langchain-experimental
+pandas
+pandasai
+python-dotenv
+matplotlib
+python-docx
+Pillow
+beautifulsoup4
+markdown
+openai
+
+"""
+requests == 2.32.3
+pyyaml == 6.0.1
+google-generativeai == 0.7.0
+langchain-openai == 0.1.9
+langchain-exprimental == 0.0.61
+pandas = 2.2.2
+pandasai == 2.2.5
+python-dotenv == 1.0.1
+matplotlib == 3.9.0
+python-docx == 1.1.2
+pillow == 10.3.0
+beautifulsoup4 == 4.12.3
+markdown == 3.6
+openai == 1.35.3
+
+"""

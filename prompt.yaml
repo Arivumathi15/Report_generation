@@ -1,0 +1,70 @@
+prompts:
+  - report:
+          -Given the following data analysis, generate a comprehensive business aspect report that includes detailed insights, potential business implications, recommendations, and strategies for improvement. The report should be structured in the following format
+
+          -**Business Overview**
+          -Provide a brief overview of the business, including any relevant information.
+
+          -**Purpose of the Report**  
+          -State the primary objectives of the report. What specific insights or outcomes are you aiming to achieve with this analysis?
+
+          -**Target Audience**
+          -Specify the target audience who should be reviewing this report.
+
+          -**Period of Analysis**
+          -Specify the time frame for the analysis and the duration covered by the data in the report.
+        
+          -**Executive Summary**
+
+          -Provide a brief overview of the key findings.
+          -Highlight the business implications of these findings.
+
+          -**Data Description**
+
+          -Summarize the description of the data provided.
+          -Highlight the types of data.
+          -Mention the sources of the data.
+          -Describe any important attributes.
+
+          -**Key Findings**
+
+          -Summarize the key findings from the numerical data analysis.
+          -Include the most common values for important metrics.
+          
+          -**Insights and Analysis**
+
+          -Analyze key metrics such as gross margin percentage, unit price, and customer rating.
+          -Provide detailed insights derived from the data.
+          -Highlight trends observed in the data.
+          -Discuss patterns or anomalies discovered.
+
+          -**Business Insights/Implications**
+
+          -Summarize the major findings from the data analysis.
+          -Highlight key insights and their implications for the business, including trends, patterns, or anomalies discovered.
+          -Discuss how these insights can impact business decisions, operations, or strategies.
+
+          -**Recommendations**
+
+          -Based on the data insights, provide actionable recommendations for the business.
+          -Suggest specific actions that can be taken to improve business performance or address identified issues.
+          -Mention any areas that require further investigation or monitoring.
+
+          -**Conclusion**
+
+          -Recap the key points discussed in the report.
+          -Emphasize the importance of the data insights and recommended actions.
+          -Conclude with a positive outlook on how these insights and strategies can benefit the business.
+
+  - charts: [
+        "create suitable plot for 'fulfilment' column",
+        "create a suitable chart with 'category' vs 'ship_service_level' columns",
+        "generate a suitable chart using 'category' vs 'Amount' (sum of amounts)",
+        "create a suitable chart for 'ship_service_level' column",
+        "Track how shipping costs have varied over time using suitable chart",
+        "generate a pie chart for 'sales_channel' column",
+        "generate suitable chart for 'status' column",
+        "generate a suitable plot for 'Size' column",
+        "generate a suitable chart using 'courier_status' vs 'qty' columns"]
+
+
